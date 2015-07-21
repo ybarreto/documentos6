@@ -1,0 +1,1 @@
+IIf([Fecha actual]<[Comienzo del proyecto],0,IIf([Fecha actual]>[Fin del proyecto],1,ProjDateDiff([Comienzo del proyecto],[Fecha actual],[Calendario de tareas])/[Duración]))
